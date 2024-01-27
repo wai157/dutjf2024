@@ -1,0 +1,14 @@
+{
+  "name": "dutjf2024",
+  "version": "1.0.0",
+  "description": "dut job fair 2024 landing page",
+  "main": "index.js",
+  "scripts": {
+    "build:tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
