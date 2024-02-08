@@ -4,7 +4,6 @@
 
   ```shell
   npm install
-  npm build
   ```
 
 # Tailwind build
