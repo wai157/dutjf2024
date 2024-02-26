@@ -4,3 +4,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .hexagon {
+    clip-path: polygon(0 0, 85% 0, 100% 25%, 100% 75%, 85% 100%, 0 100%)
+  }
+}
