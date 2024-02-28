@@ -3,7 +3,6 @@ module.exports = {
   content: [
     "./**/*.{html,js}",
     "./static/js/**/*.{html,js}",
-    "./node_modules/tw-elements/dist/js/**/*.js"
   ],
   theme: {
     fontFamily: {
@@ -31,5 +30,5 @@ module.exports = {
       }
     },  
   },
-  plugins: [require("tw-elements/dist/plugin")],
+  plugins: [],
 }
