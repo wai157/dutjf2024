@@ -1,6 +1,5 @@
 // Get the button
 const mybutton = document.getElementById("btn-back-to-top");
-const maskbutton = document.getElementById("btn-back-to-top-mask");
 // When the user scrolls down 20px from the top of the document, show the button
 
 const scrollFunction = () => {
@@ -9,10 +8,8 @@ const scrollFunction = () => {
     document.documentElement.scrollTop > 300
   ) {
     mybutton.classList.remove("hidden");
-    maskbutton.classList.remove("hidden");
   } else {
     mybutton.classList.add("hidden");
-    maskbutton.classList.add("hidden");
   }
 };
 const backToTop = () => {
@@ -21,6 +18,5 @@ const backToTop = () => {
 
 // When the user clicks on the button, scroll to the top of the document
 mybutton.addEventListener("click", backToTop);
-maskbutton.addEventListener("click", backToTop);
 
 window.addEventListener("scroll", scrollFunction);

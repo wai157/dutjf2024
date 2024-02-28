@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DUT Job Fair 2024</title>
-    <link rel="shortcut icon" href="./assets/logo_bk.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/logo_bk.jpg" type="image/x-icon">
 
-    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="static/css/output.css">
 </head>
 <body class="min-h-screen">
 
     <!-- nav bar -->
   <nav class="fixed top-0 w-full h-16 z-50 bg-background">
     <div class="relative h-full w-min flex items-center pl-2">
-        <img src="./assets/logo_jf.png" alt="logo dut job fair 2024" class="h-4/5 w-auto max-w-none">
+        <img src="assets/logo_jf.png" alt="logo dut job fair 2024" class="h-4/5 w-auto max-w-none">
     </div>
   </nav>
   
@@ -23,13 +23,13 @@
       <div id="main-carousel" class="relative h-full" data-te-carousel-init data-te-ride="carousel">
         <div class="relative w-full h-full overflow-hidden after:clear-both after:block after:content-['']">
           <div class="relative float-left -mr-[100%] w-full h-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item data-te-carousel-active>
-            <img src="./assets/hinhanh2023/IMG_9331.JPG" class="absolute bottom-0 max-w-none w-full h-auto" alt="job fair 1" />
+            <img src="assets/hinhanh2023/IMG_9331.JPG" class="absolute bottom-0 max-w-none w-full h-auto" alt="job fair 1" />
           </div>
           <div class="relative float-left -mr-[100%] hidden w-full h-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
-            <img src="./assets/hinhanh2023/IMG_9332.JPG" class="absolute bottom-0 max-w-none w-full h-auto" alt="job fair 2" />
+            <img src="assets/hinhanh2023/IMG_9332.JPG" class="absolute bottom-0 max-w-none w-full h-auto" alt="job fair 2" />
           </div>
           <div class="relative float-left -mr-[100%] hidden w-full h-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
-            <img src="./assets/hinhanh2023/IMG_9328.JPG" class="absolute bottom-0 max-w-none w-full h-auto" alt="job fair 3" />
+            <img src="assets/hinhanh2023/IMG_9328.JPG" class="absolute bottom-0 max-w-none w-full h-auto" alt="job fair 3" />
           </div>
         </div>
       </div>
@@ -44,14 +44,15 @@
       </div>
     </div>
 
-    <div class="relative h-screen pt-8">
+    <!-- <div class="relative h-screen pt-8">
 
-    </div>
+    </div> -->
 
-    <div class="fixed w-14 h-14 right-2 bottom-2 sm:bottom-6 sm:right-4 hover:w-16 hover:h-16 z-50">
-      <button id="btn-back-to-top" class="absolute  bg-accent w-full h-full rotate-90 hidden" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)"></button>
-      <button id="btn-back-to-top-mask" class="absolute bg-gradient-to-l from-primary-500 to-primary w-full h-full rotate-90 hidden" style="clip-path: polygon(45% 5%, 75% 5%, 100% 50%, 75% 95%, 45% 95%, 20% 50%)"></button>
-    </div>
+    <!-- back to top button -->
+    <button id="btn-back-to-top" class="fixed w-14 h-14 right-2 bottom-2 sm:bottom-6 sm:right-4 hover:w-16 hover:h-16 z-50 hidden">
+      <div class="absolute top-0 bg-accent w-full h-full rotate-90" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)"></div>
+      <div class="absolute top-0 bg-gradient-to-l from-primary-500 to-primary w-full h-full rotate-90" style="clip-path: polygon(45% 5%, 75% 5%, 100% 50%, 75% 95%, 45% 95%, 20% 50%)"></div>
+    </button>
   </main>
 
   <!-- footer -->
@@ -95,7 +96,7 @@
               <div class="px-2 items-start">
                 <div>
                   <div class="">
-                    <img src="./assets/logo_bk.jpg" alt="DUT logo" class="max-w-none w-auto h-16">
+                    <img src="assets/logo_bk.jpg" alt="DUT logo" class="max-w-none w-auto h-16">
                   </div>
                   <div class="py-4 px-2">
                     <div>
@@ -112,7 +113,7 @@
     </section>
   </footer>
 
-  <script type="text/javascript" src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
-  <script type="text/javascript" src="./index.js"></script>  
+  <script type="text/javascript" src="node_modules/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+  <script type="text/javascript" src="static/js/index.js"></script>  
 </body>
 </html>

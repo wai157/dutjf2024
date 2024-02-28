@@ -4,7 +4,7 @@
   "description": "dut job fair 2024 landing page",
   "main": "index.js",
   "scripts": {
-    "build:tailwind": "npx tailwindcss -i ./docs/input.css -o ./docs/output.css --watch"
+    "build:tailwind": "npx tailwindcss -i ./static/css/input.css -o ./static/css/output.css --watch"
   },
   "author": "",
   "license": "ISC",
