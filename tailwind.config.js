@@ -6,7 +6,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ["Lora", "Rubik", "sans-serif"],
+      sans: ["Poppins", "sans-serif"],
+      serif: ["Lora", "serif"],
     },
     extend: {
       colors: {
@@ -18,8 +19,8 @@ module.exports = {
           dark: '#12256d',
         },
         'secondary': {
-          light: '#eab87b',
-          DEFAULT: '#ecbf87',
+          light: '#ecbf87',
+          DEFAULT: '#eab87b',
           dark: '#6e4411',
         },
         'accent': {
