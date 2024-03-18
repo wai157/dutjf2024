@@ -6,7 +6,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ["Poppins", "sans-serif"],
+      sans: ["Montserrat", "sans-serif"],
       serif: ["Lora", "serif"],
     },
     extend: {
@@ -19,9 +19,9 @@ module.exports = {
           dark: '#12256d',
         },
         'secondary': {
-          light: '#ecbf87',
-          DEFAULT: '#eab87b',
-          dark: '#6e4411',
+          light: '#f9d2d5',
+          DEFAULT: '#f29ca3',
+          dark: '#cb1a29',
         },
         'accent': {
           light: '#c5fc82',
