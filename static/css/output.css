@@ -675,10 +675,6 @@ video {
   bottom: 0.5rem;
 }
 
-.bottom-32{
-  bottom: 8rem;
-}
-
 .bottom-5{
   bottom: 1.25rem;
 }
@@ -691,8 +687,8 @@ video {
   left: 0px;
 }
 
-.left-24{
-  left: 6rem;
+.left-4{
+  left: 1rem;
 }
 
 .left-\[540px\]{
@@ -715,16 +711,72 @@ video {
   top: 0px;
 }
 
-.top-32{
-  top: 8rem;
-}
-
 .top-5{
   top: 1.25rem;
 }
 
 .top-\[270px\]{
   top: 270px;
+}
+
+.left-40{
+  left: 10rem;
+}
+
+.top-60{
+  top: 15rem;
+}
+
+.top-40{
+  top: 10rem;
+}
+
+.top-80{
+  top: 20rem;
+}
+
+.top-6{
+  top: 1.5rem;
+}
+
+.top-64{
+  top: 16rem;
+}
+
+.left-24{
+  left: 6rem;
+}
+
+.left-20{
+  left: 5rem;
+}
+
+.top-72{
+  top: 18rem;
+}
+
+.left-48{
+  left: 12rem;
+}
+
+.top-36{
+  top: 9rem;
+}
+
+.top-4{
+  top: 1rem;
+}
+
+.top-48{
+  top: 12rem;
+}
+
+.left-5{
+  left: 1.25rem;
+}
+
+.left-52{
+  left: 13rem;
 }
 
 .isolate{
@@ -921,14 +973,19 @@ video {
   display: none;
 }
 
+.size-48{
+  width: 12rem;
+  height: 12rem;
+}
+
 .size-64{
   width: 16rem;
   height: 16rem;
 }
 
-.size-80{
-  width: 20rem;
-  height: 20rem;
+.size-72{
+  width: 18rem;
+  height: 18rem;
 }
 
 .size-96{
@@ -936,14 +993,24 @@ video {
   height: 24rem;
 }
 
-.size-\[520px\]{
-  width: 520px;
-  height: 520px;
-}
-
 .size-\[90\%\]{
   width: 90%;
   height: 90%;
+}
+
+.size-20{
+  width: 5rem;
+  height: 5rem;
+}
+
+.size-60{
+  width: 15rem;
+  height: 15rem;
+}
+
+.size-40{
+  width: 10rem;
+  height: 10rem;
 }
 
 .\!h-px{
@@ -964,6 +1031,10 @@ video {
 
 .h-20{
   height: 5rem;
+}
+
+.h-36{
+  height: 9rem;
 }
 
 .h-4{
@@ -1031,10 +1102,6 @@ video {
 
 .w-14{
   width: 3.5rem;
-}
-
-.w-2\/3{
-  width: 66.666667%;
 }
 
 .w-3\/5{
@@ -2142,11 +2209,6 @@ video {
   background-color: rgb(47 84 177 / var(--tw-bg-opacity));
 }
 
-.bg-primary-dark{
-  --tw-bg-opacity: 1;
-  background-color: rgb(18 37 109 / var(--tw-bg-opacity));
-}
-
 .bg-primary-light{
   --tw-bg-opacity: 1;
   background-color: rgb(59 108 222 / var(--tw-bg-opacity));
@@ -2157,6 +2219,11 @@ video {
   background-color: rgb(242 156 163 / var(--tw-bg-opacity));
 }
 
+.bg-secondary-light{
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 210 213 / var(--tw-bg-opacity));
+}
+
 .bg-slate-200{
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
@@ -2165,11 +2232,6 @@ video {
 .bg-text{
   --tw-bg-opacity: 1;
   background-color: rgb(2 4 12 / var(--tw-bg-opacity));
-}
-
-.bg-secondary-light{
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 210 213 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-70{
@@ -2312,10 +2374,6 @@ video {
   padding: 0px;
 }
 
-.p-16{
-  padding: 4rem;
-}
-
 .p-2{
   padding: 0.5rem;
 }
@@ -2362,10 +2420,6 @@ video {
 
 .pb-2{
   padding-bottom: 0.5rem;
-}
-
-.pb-4{
-  padding-bottom: 1rem;
 }
 
 .pb-6{
@@ -2460,9 +2514,14 @@ video {
   font-family: Lora, serif;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-6xl{
@@ -2475,16 +2534,6 @@ video {
   line-height: 1;
 }
 
-.text-8xl{
-  font-size: 6rem;
-  line-height: 1;
-}
-
-.text-9xl{
-  font-size: 8rem;
-  line-height: 1;
-}
-
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
@@ -2493,6 +2542,11 @@ video {
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .text-xl{
@@ -3144,30 +3198,82 @@ video {
 }
 
 @media not all and (min-width: 640px){
+  .max-sm\:-left-16{
+    left: -4rem;
+  }
+
+  .max-sm\:-right-16{
+    right: -4rem;
+  }
+
+  .max-sm\:-top-12{
+    top: -3rem;
+  }
+
+  .max-sm\:-top-16{
+    top: -4rem;
+  }
+
+  .max-sm\:-top-4{
+    top: -1rem;
+  }
+
+  .max-sm\:-top-8{
+    top: -2rem;
+  }
+
   .max-sm\:hidden{
     display: none;
+  }
+
+  .max-sm\:h-fit{
+    height: -moz-fit-content;
+    height: fit-content;
   }
 
   .max-sm\:w-full{
     width: 100%;
   }
 
-  .max-sm\:w-screen{
-    width: 100vw;
-  }
-
   .max-sm\:justify-start{
     justify-content: flex-start;
+  }
+
+  .max-sm\:whitespace-pre-line{
+    white-space: pre-line;
+  }
+
+  .max-sm\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .max-sm\:pt-28{
     padding-top: 7rem;
   }
+
+  .max-sm\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .max-sm\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
 }
 
 @media (min-width: 640px){
+  .sm\:bottom-32{
+    bottom: 8rem;
+  }
+
   .sm\:bottom-6{
     bottom: 1.5rem;
+  }
+
+  .sm\:left-24{
+    left: 6rem;
   }
 
   .sm\:right-4{
@@ -3176,6 +3282,26 @@ video {
 
   .sm\:top-1\/4{
     top: 25%;
+  }
+
+  .sm\:top-32{
+    top: 8rem;
+  }
+
+  .sm\:left-\[540px\]{
+    left: 540px;
+  }
+
+  .sm\:top-\[270px\]{
+    top: 270px;
+  }
+
+  .sm\:left-\[580px\]{
+    left: 580px;
+  }
+
+  .sm\:top-5{
+    top: 1.25rem;
   }
 
   .sm\:mx-auto{
@@ -3187,6 +3313,34 @@ video {
     display: none;
   }
 
+  .sm\:size-80{
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .sm\:size-\[520px\]{
+    width: 520px;
+    height: 520px;
+  }
+
+  .sm\:size-96{
+    width: 24rem;
+    height: 24rem;
+  }
+
+  .sm\:size-64{
+    width: 16rem;
+    height: 16rem;
+  }
+
+  .sm\:h-1\/6{
+    height: 16.666667%;
+  }
+
+  .sm\:w-2\/3{
+    width: 66.666667%;
+  }
+
   .sm\:w-96{
     width: 24rem;
   }
@@ -3195,9 +3349,59 @@ video {
     max-width: 36rem;
   }
 
+  .sm\:flex-row{
+    flex-direction: row;
+  }
+
+  .sm\:p-16{
+    padding: 4rem;
+  }
+
   .sm\:px-40{
     padding-left: 10rem;
     padding-right: 10rem;
+  }
+
+  .sm\:pb-4{
+    padding-bottom: 1rem;
+  }
+
+  .sm\:pb-6{
+    padding-bottom: 1.5rem;
+  }
+
+  .sm\:pt-16{
+    padding-top: 4rem;
+  }
+
+  .sm\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .sm\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .sm\:text-7xl{
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .sm\:text-8xl{
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .sm\:text-9xl{
+    font-size: 8rem;
+    line-height: 1;
+  }
+
+  .sm\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .sm\:underline{
