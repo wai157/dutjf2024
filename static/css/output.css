@@ -687,16 +687,16 @@ video {
   left: 0px;
 }
 
+.left-20{
+  left: 5rem;
+}
+
 .left-4{
   left: 1rem;
 }
 
-.left-\[540px\]{
-  left: 540px;
-}
-
-.left-\[580px\]{
-  left: 580px;
+.left-52{
+  left: 13rem;
 }
 
 .right-0{
@@ -711,72 +711,12 @@ video {
   top: 0px;
 }
 
-.top-5{
-  top: 1.25rem;
-}
-
-.top-\[270px\]{
-  top: 270px;
-}
-
-.left-40{
-  left: 10rem;
-}
-
-.top-60{
-  top: 15rem;
-}
-
-.top-40{
-  top: 10rem;
-}
-
-.top-80{
-  top: 20rem;
-}
-
-.top-6{
-  top: 1.5rem;
-}
-
-.top-64{
-  top: 16rem;
-}
-
-.left-24{
-  left: 6rem;
-}
-
-.left-20{
-  left: 5rem;
-}
-
-.top-72{
-  top: 18rem;
-}
-
-.left-48{
-  left: 12rem;
-}
-
-.top-36{
-  top: 9rem;
-}
-
-.top-4{
-  top: 1rem;
-}
-
 .top-48{
   top: 12rem;
 }
 
-.left-5{
-  left: 1.25rem;
-}
-
-.left-52{
-  left: 13rem;
+.top-64{
+  top: 16rem;
 }
 
 .isolate{
@@ -973,34 +913,14 @@ video {
   display: none;
 }
 
+.size-40{
+  width: 10rem;
+  height: 10rem;
+}
+
 .size-48{
   width: 12rem;
   height: 12rem;
-}
-
-.size-64{
-  width: 16rem;
-  height: 16rem;
-}
-
-.size-72{
-  width: 18rem;
-  height: 18rem;
-}
-
-.size-96{
-  width: 24rem;
-  height: 24rem;
-}
-
-.size-\[90\%\]{
-  width: 90%;
-  height: 90%;
-}
-
-.size-20{
-  width: 5rem;
-  height: 5rem;
 }
 
 .size-60{
@@ -1008,9 +928,14 @@ video {
   height: 15rem;
 }
 
-.size-40{
-  width: 10rem;
-  height: 10rem;
+.size-72{
+  width: 18rem;
+  height: 18rem;
+}
+
+.size-\[90\%\]{
+  width: 90%;
+  height: 90%;
 }
 
 .\!h-px{
@@ -3276,6 +3201,14 @@ video {
     left: 6rem;
   }
 
+  .sm\:left-\[540px\]{
+    left: 540px;
+  }
+
+  .sm\:left-\[580px\]{
+    left: 580px;
+  }
+
   .sm\:right-4{
     right: 1rem;
   }
@@ -3288,20 +3221,12 @@ video {
     top: 8rem;
   }
 
-  .sm\:left-\[540px\]{
-    left: 540px;
+  .sm\:top-5{
+    top: 1.25rem;
   }
 
   .sm\:top-\[270px\]{
     top: 270px;
-  }
-
-  .sm\:left-\[580px\]{
-    left: 580px;
-  }
-
-  .sm\:top-5{
-    top: 1.25rem;
   }
 
   .sm\:mx-auto{
@@ -3313,14 +3238,14 @@ video {
     display: none;
   }
 
+  .sm\:size-64{
+    width: 16rem;
+    height: 16rem;
+  }
+
   .sm\:size-80{
     width: 20rem;
     height: 20rem;
-  }
-
-  .sm\:size-\[520px\]{
-    width: 520px;
-    height: 520px;
   }
 
   .sm\:size-96{
@@ -3328,9 +3253,9 @@ video {
     height: 24rem;
   }
 
-  .sm\:size-64{
-    width: 16rem;
-    height: 16rem;
+  .sm\:size-\[520px\]{
+    width: 520px;
+    height: 520px;
   }
 
   .sm\:h-1\/6{
