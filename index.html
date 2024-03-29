@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
     <link rel="stylesheet" href="static/css/output.css">
 </head>
-<body class="min-h-screen">
+<body class="min-h-screen overflow-x-hidden">
 
   <!-- nav bar -->
   <nav class="fixed top-0 w-full h-16 z-50 bg-background">
@@ -22,7 +22,7 @@
   <main class="relative min-h-screen">
 
     <!-- first page -->
-    <div class="relative h-screen font-serif">
+    <div class="relative h-screen max-sm:h-[110vh] font-serif">
       <div id="main-carousel" class="relative h-full" data-te-carousel-init data-te-ride="carousel">
         <div class="relative w-full h-full overflow-hidden after:clear-both after:block after:content-['']">
           <div class="relative float-left -mr-[100%] w-full h-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item data-te-carousel-active>
@@ -51,34 +51,30 @@
     </div>
 
     <!-- second page -->
-    <div class="relative h-screen max-sm:h-fit pt-8">
+    <div class="relative min-h-screen h-screen max-sm:h-[160vh] pt-8">
       <div class="h-36 sm:h-1/6 flex flex-row items-center justify-center">
-        <p class="text-text text-4xl sm:text-6xl text-center sm:pt-16 font-bold max-sm:px-8">NHỮNG CON SỐ ẤN TƯỢNG</p>
+        <p class="text-text text-4xl lg:text-6xl text-center sm:pt-16 font-bold max-sm:px-8">NHỮNG CON SỐ ẤN TƯỢNG</p>
       </div>
-      <div class="flex flex-col sm:flex-row h-5/6 w-full sm:p-16 justify-evenly items-center">
-        <div class="relative flex flex-col justify-center items-center bg-secondary size-48 sm:size-80 sm:top-32 sm:pb-4 max-sm:-left-16" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
-          <p class="text-accent text-5xl sm:text-7xl font-bold">2000+</p>
-          <p class="text-text text-sm sm:text-xl text-center max-sm:whitespace-pre-line">Sinh viên
-            checkin offline</p>
+      <div class="relative flex flex-col sm:flex-row h-5/6 w-full sm:py-16 sm:px-4 justify-evenly items-center">
+        <div class="relative flex flex-col justify-center items-center bg-secondary w-[20vw] h-[20vw] sm:top-32 sm:pb-4 max-sm:-left-16" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+          <p class="text-accent text-5xl xl:text-7xl font-bold">2000+</p>
+          <p class="text-text text-sm xl:text-xl text-center text-wrap font-semibold px-6">Sinh viên checkin offline</p>
         </div>
-        <div class="relative flex flex-col justify-center items-center bg-primary-light size-48 sm:size-80 sm:bottom-32 sm:pb-6 max-sm:-right-16 max-sm:-top-4" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
-          <p class="text-accent text-7xl sm:text-9xl font-bold">45</p>
-          <p class="text-background text-sm sm:text-xl text-center max-sm:whitespace-pre-line">Doanh nghiệp
-            đối tác</p>
+        <div class="relative flex flex-col justify-center items-center bg-primary-light w-[20vw] h-[20vw] sm:bottom-32 sm:pb-6 max-sm:-right-16 max-sm:-top-4" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+          <p class="text-accent text-7xl xl:text-9xl font-bold">45</p>
+          <p class="text-background text-sm xl:text-xl text-center text-wrap font-semibold px-6">Doanh nghiệp đối tác</p>
         </div>
-        <div class="relative flex flex-col justify-center items-center bg-secondary size-48 sm:size-80 sm:top-32 pb-2 max-sm:-left-16 max-sm:-top-8" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
-          <p class="text-accent text-5xl sm:text-8xl font-bold">2833</p>
-          <p class="text-text text-sm sm:text-xl text-center">Sinh viên đăng kí</p>
+        <div class="relative flex flex-col justify-center items-center bg-secondary w-[20vw] h-[20vw] sm:top-32 pb-2 max-sm:-left-16 max-sm:-top-8" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+          <p class="text-accent text-5xl xl:text-8xl font-bold">2833</p>
+          <p class="text-text text-sm xl:text-xl text-center text-wrap font-semibold px-4">Sinh viên đăng kí</p>
         </div>
-        <div class="relative flex flex-col justify-center items-center bg-primary-light size-48 sm:size-80 sm:bottom-32 sm:pb-6 max-sm:-right-16 max-sm:-top-12" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
-          <p class="text-accent text-7xl sm:text-9xl font-bold">23</p>
-          <p class="text-background text-sm sm:text-xl text-center max-sm:whitespace-pre-line">Workshop
-            thành công</p>
+        <div class="relative flex flex-col justify-center items-center bg-primary-light w-[20vw] h-[20vw] sm:bottom-32 sm:pb-6 max-sm:-right-16 max-sm:-top-12" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+          <p class="text-accent text-7xl xl:text-9xl font-bold">23</p>
+          <p class="text-background text-sm xl:text-xl text-center text-wrap font-semibold px-6">Workshop thành công</p>
         </div>
-        <div class="relative flex flex-col justify-center items-center bg-secondary size-48 sm:size-80 sm:top-32 sm:pb-6 max-sm:-left-16 max-sm:-top-16" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
-          <p class="text-accent text-7xl sm:text-9xl font-bold">62</p>
-          <p class="text-text text-sm sm:text-xl text-center max-sm:whitespace-pre-line">Tình nguyện viên
-            hỗ trợ</p>
+        <div class="relative flex flex-col justify-center items-center bg-secondary w-[20vw] h-[20vw] sm:top-32 sm:pb-6 max-sm:-left-16 max-sm:-top-16" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+          <p class="text-accent text-7xl xl:text-9xl font-bold">62</p>
+          <p class="text-text text-sm xl:text-xl text-center text-wrap font-semibold px-8">Tình nguyện viên hỗ trợ</p>
         </div>
       </div>
     </div>
@@ -86,7 +82,7 @@
     <!-- third page -->
     <div class="relative min-h-screen h-screen pt-4 bg-gray-50">
       <div class="h-[10vh] flex flex-row items-center justify-center">
-        <p class="text-text max-sm:text-4xl text-6xl text-center font-bold">CÁC HOẠT ĐỘNG NỔI BẬT</p>
+        <p class="text-text max-lg:text-4xl text-6xl text-center font-bold">CÁC HOẠT ĐỘNG NỔI BẬT</p>
       </div>
       <div
         id="carouselDarkVariant"
@@ -128,19 +124,19 @@
             <div class="flex flex-row-reverse max-sm:flex-col w-full h-full">
               <div class="relative sm:w-3/5 max-sm:h-7/12 h-full sm:pr-[10%] px-4 max-sm:pt-8 flex flex-col justify-center">
                 <div class="relative w-full h-full">
-                  <div class="absolute left-0 top-0 bg-primary size-[70%] flex justify-center items-center" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+                  <div class="absolute left-0 top-0 bg-primary w-[60vh] h-[60vh] max-sm:w-[60vw] max-sm:h-[60vw] flex justify-center items-center" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
                     <div class="relative bg-background size-[90%] flex items-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
                       <img src="assets/hinhanh2023/IMG_9319.JPG" alt="td_ut_1" class="w-full h-auto scale-150">
                     </div>
                   </div>
-                  <div class="absolute top-[40%] left-[58%] bg-secondary size-[45%] flex justify-center items-center" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+                  <div class="absolute top-[40%] left-[50%] bg-secondary w-[45vh] h-[45vh] max-sm:w-[45vw] max-sm:h-[45vw] flex justify-center items-center" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
                     <div class="relative bg-background size-[90%] flex items-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
-                      <img src="assets/hinhanh2023/IMG_9319.JPG" alt="td_ut_1" class="w-full h-auto scale-150">
+                      <img src="assets/hinhanh2023/IMG_9336.JPG" alt="td_ut_1" class="w-full h-auto scale-150">
                     </div>
                   </div>
-                  <div class="absolute top-[8%] left-[68%] bg-secondary-light size-[35%] flex justify-center items-center" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+                  <div class="absolute top-[3%] left-[60%] bg-secondary-light w-[35vh] h-[35vh] max-sm:w-[35vw] max-sm:h-[35vw] flex justify-center items-center" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
                     <div class="relative bg-background size-[90%] flex items-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
-                      <img src="assets/hinhanh2023/IMG_9319.JPG" alt="td_ut_1" class="w-full h-auto scale-150">
+                      <img src="assets/hinhanh2023/IMG_9337.JPG" alt="td_ut_1" class="w-full h-auto scale-150">
                     </div>
                   </div>
                 </div>
@@ -159,19 +155,19 @@
             <div class="flex flex-row-reverse max-sm:flex-col w-full h-full">
               <div class="relative sm:w-3/5 max-sm:h-7/12 h-full sm:pr-[10%] px-4 max-sm:pt-8 flex flex-col justify-center">
                 <div class="relative w-full h-full">
-                  <div class="absolute left-0 top-0 bg-primary size-[70%] flex justify-center items-center" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+                  <div class="absolute left-0 top-0 bg-primary w-[60vh] h-[60vh] max-sm:w-[60vw] max-sm:h-[60vw] flex justify-center items-center" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
                     <div class="relative bg-background size-[90%] flex items-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
-                      <img src="assets/hinhanh2023/IMG_9319.JPG" alt="td_ut_1" class="w-full h-auto scale-150">
+                      <img src="assets/hinhanh2023/IMG_9332.JPG" alt="td_ut_1" class="w-full h-auto scale-150">
                     </div>
                   </div>
-                  <div class="absolute top-[40%] left-[58%] bg-secondary size-[45%] flex justify-center items-center" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+                  <div class="absolute top-[40%] left-[50%] bg-secondary w-[45vh] h-[45vh] max-sm:w-[45vw] max-sm:h-[45vw] flex justify-center items-center" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
                     <div class="relative bg-background size-[90%] flex items-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
-                      <img src="assets/hinhanh2023/IMG_9319.JPG" alt="td_ut_1" class="w-full h-auto scale-150">
+                      <img src="assets/hinhanh2023/IMG_9330.JPG" alt="td_ut_1" class="w-full h-auto scale-150">
                     </div>
                   </div>
-                  <div class="absolute top-[8%] left-[68%] bg-secondary-light size-[35%] flex justify-center items-center" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+                  <div class="absolute top-[3%] left-[60%] bg-secondary-light w-[35vh] h-[35vh] max-sm:w-[35vw] max-sm:h-[35vw] flex justify-center items-center" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
                     <div class="relative bg-background size-[90%] flex items-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
-                      <img src="assets/hinhanh2023/IMG_9319.JPG" alt="td_ut_1" class="w-full h-auto scale-150">
+                      <img src="assets/hinhanh2023/IMG_9324.JPG" alt="td_ut_1" class="w-full h-auto scale-150">
                     </div>
                   </div>
                 </div>
@@ -190,19 +186,19 @@
             <div class="flex flex-row-reverse max-sm:flex-col w-full h-full">
               <div class="relative sm:w-3/5 max-sm:h-7/12 h-full sm:pr-[10%] px-4 max-sm:pt-8 flex flex-col justify-center">
                 <div class="relative w-full h-full">
-                  <div class="absolute left-0 top-0 bg-primary size-[70%] flex justify-center items-center" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+                  <div class="absolute left-0 top-0 bg-primary w-[60vh] h-[60vh] max-sm:w-[60vw] max-sm:h-[60vw] flex justify-center items-center" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
                     <div class="relative bg-background size-[90%] flex items-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
-                      <img src="assets/hinhanh2023/IMG_9319.JPG" alt="td_ut_1" class="w-full h-auto scale-150">
+                      <img src="assets/hinhanh2023/IMG_9327.JPG" alt="td_ut_1" class="w-full h-auto scale-150">
                     </div>
                   </div>
-                  <div class="absolute top-[40%] left-[58%] bg-secondary size-[45%] flex justify-center items-center" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+                  <div class="absolute top-[40%] left-[50%] bg-secondary w-[45vh] h-[45vh] max-sm:w-[45vw] max-sm:h-[45vw] flex justify-center items-center" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
                     <div class="relative bg-background size-[90%] flex items-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
-                      <img src="assets/hinhanh2023/IMG_9319.JPG" alt="td_ut_1" class="w-full h-auto scale-150">
+                      <img src="assets/hinhanh2023/IMG_9325.JPG" alt="td_ut_1" class="w-full h-auto scale-150">
                     </div>
                   </div>
-                  <div class="absolute top-[8%] left-[68%] bg-secondary-light size-[35%] flex justify-center items-center" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+                  <div class="absolute top-[3%] left-[60%] bg-secondary-light w-[35vh] h-[35vh] max-sm:w-[35vw] max-sm:h-[35vw] flex justify-center items-center" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
                     <div class="relative bg-background size-[90%] flex items-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
-                      <img src="assets/hinhanh2023/IMG_9319.JPG" alt="td_ut_1" class="w-full h-auto scale-150">
+                      <img src="assets/hinhanh2023/IMG_9326.JPG" alt="td_ut_1" class="w-full h-auto scale-150">
                     </div>
                   </div>
                 </div>
@@ -265,6 +261,230 @@
             >Next</span
           >
         </button>
+      </div>
+    </div>
+
+    <!-- fourth page -->
+    <div class="relative min-h-screen pt-6 h-max">
+      <div class="h-[10vh] flex flex-row items-center justify-center">
+        <p class="text-text max-lg:text-4xl text-6xl text-center font-bold">CÁC ĐỐI TÁC</p>
+      </div>
+      <div class="flex flex-col h-fit p-8 gap-8">
+        <div class="flex flex-row justify-center">
+          <span class="text-center px-6">
+            <p class="text-primary-light max-lg:text-3xl text-5xl text-center font-bold">NHÀ TÀI TRỢ KIM CƯƠNG</p>
+          </span>
+        </div>
+        <div class="relative flex flex-row max-md:flex-col justify-start max-sm:justify-center items-center h-[40vh] sm:pl-12">
+          <div class="bg-primary w-[45vh] h-[45vh] flex flex-row justify-center items-center" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo_dn/kc/THACO.jpg" alt="hub" class="w-full h-auto scale-100">
+            </div>
+          </div>
+          <div class="md:flex-1 md:basis-3/5 flex flex-col justify-start max-md:items-center lg:pl-4">
+            <span class="max-sm:hidden">
+              <strong class="font-bold text-xl text-text">Thaco Group</strong>
+            </span>
+            <span class="my-1 text-text text-wrap max-md:hidden">
+              <p>CÔNG TY CỔ PHẦN TẬP ĐOÀN TRƯỜNG HẢI (TRUONG HAI GROUP) được thành lập vào ngày 29/04/1997, tại Đồng Nai. Trải qua 25 năm hình thành và phát triển, THACO đã phát triển vượt bậc, đưa doanh nghiệp trở thành tập đoàn công nghiệp đa ngành gồm: THACO AUTO (Ô tô), THACO AGRI (Nông Lâm nghiệp); THACO INDUSTRIES (Cơ khí và Công nghiệp hỗ trợ), THADICO (Đầu tư xây dựng), THILOGI (Logistics) và THISO (Thương mại dịch vụ), trong đó các ngành bổ trợ cho nhau và có tính tích hợp cao.</p>
+            </span>
+            <a class="rounded-full bg-primary w-24 h-12 text-center pt-2 text-white hover:text-primary border-4 border-primary-dark hover:bg-white font-semibold" href="https://www.thacogroup.vn" target="_blank">Truy cập</a>
+          </div>
+        </div>
+        <div class="relative flex flex-row max-md:flex-col justify-start max-sm:justify-center items-center h-[40vh] sm:pl-12 max-sm:mt-6">
+          <div class="bg-primary w-[45vh] h-[45vh] flex flex-row justify-center items-center" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo_dn/kc/Hub.jpg" alt="hub" class="h-full w-auto max-w-none p-[10%]">
+            </div>
+          </div>
+          <div class="md:flex-1 md:basis-3/5 flex flex-col justify-start max-md:items-center lg:pl-4">
+            <span class="max-sm:hidden">
+              <strong class="font-bold text-xl text-text">Thaco Group</strong>
+            </span>
+            <span class="my-1 text-text text-wrap max-md:hidden">
+              <p>CÔNG TY CỔ PHẦN TẬP ĐOÀN TRƯỜNG HẢI (TRUONG HAI GROUP) tiền thân là Công ty CP Ô tô Trường Hải (THACO) được thành lập vào ngày 29/04/1997, tại Đồng Nai. Người sáng lập là ông Trần Bá Dương, hiện là Chủ tịch Hội đồng Quản trị. Trải qua 25 năm hình thành và phát triển, từ một công ty chuyên nhập khẩu xe cũ, cung cấp vật tư phụ tùng sửa chữa ô tô, THACO đã phát triển vượt bậc, đưa doanh nghiệp trở thành tập đoàn công nghiệp đa ngành gồm: THACO AUTO (Ô tô), THACO AGRI (Nông Lâm nghiệp); THACO INDUSTRIES (Cơ khí và Công nghiệp hỗ trợ), THADICO (Đầu tư xây dựng), THILOGI (Logistics) và THISO (Thương mại dịch vụ), trong đó các ngành bổ trợ cho nhau và có tính tích hợp cao.</p>
+            </span>
+            <a class="rounded-full bg-primary w-24 h-12 text-center pt-2 text-white hover:text-primary border-4 border-primary-dark hover:bg-white font-semibold" href="https://www.thacogroup.vn" target="_blank">Truy cập</a>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col h-fit px-8 pt-4">
+        <div class="flex flex-row justify-center">
+          <span class="text-center px-3">
+            <p class="text-yellow-500 max-lg:text-3xl text-5xl text-center font-bold">NHÀ TÀI TRỢ VÀNG</p>
+          </span>
+        </div>
+        <div class="flex flex-row flex-wrap justify-center py-4 gap-[20%]">
+          <div class="bg-secondary-light w-[40vh] h-[40vh] max-sm:w-[50vw] max-sm:h-[50vw] flex justify-center items-center" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[40vh] h-[40vh] max-sm:w-[50vw] max-sm:h-[50vw] flex justify-center items-center" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col h-fit px-8 pt-4">
+        <div class="flex flex-row justify-center">
+          <span class="text-center px-3">
+            <p class="text-slate-500 max-lg:text-3xl text-5xl text-center font-bold">NHÀ TÀI TRỢ BẠC</p>
+          </span>
+        </div>
+        <div class="flex flex-row flex-wrap justify-center py-4 sm:px-16">
+          <div class="bg-secondary-light w-[32vh] h-[32vh] max-sm:h-[30vw] max-sm:w-[30vw] flex justify-center items-center mx-4" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[32vh] h-[32vh] max-sm:h-[30vw] max-sm:w-[30vw] flex justify-center items-center mx-4" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[32vh] h-[32vh] max-sm:h-[30vw] max-sm:w-[30vw] flex justify-center items-center mx-4" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          
+          <div class="bg-secondary-light w-[32vh] h-[32vh] max-sm:h-[30vw] max-sm:w-[30vw] flex justify-center items-center mx-4" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[32vh] h-[32vh] max-sm:h-[30vw] max-sm:w-[30vw] flex justify-center items-center mx-4" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[32vh] h-[32vh] max-sm:h-[30vw] max-sm:w-[30vw] flex justify-center items-center mx-4" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[32vh] h-[32vh] max-sm:h-[30vw] max-sm:w-[30vw] flex justify-center items-center mx-4" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col h-fit px-8 pt-4">
+        <div class="flex flex-row justify-center">
+          <span class="text-center px-3">
+            <p class="text-orange-900 max-lg:text-3xl text-5xl text-center font-bold">NHÀ TÀI TRỢ ĐỒNG</p>
+          </span>
+        </div>
+        <div class="flex flex-row flex-wrap justify-center py-4">
+          <div class="bg-secondary-light w-[20vh] h-[20vh] max-sm:w-[15vw] max-sm:h-[15vw] flex justify-center items-center mx-2" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[20vh] h-[20vh] max-sm:w-[15vw] max-sm:h-[15vw] flex justify-center items-center mx-2" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[20vh] h-[20vh] max-sm:w-[15vw] max-sm:h-[15vw] flex justify-center items-center mx-2" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[20vh] h-[20vh] max-sm:w-[15vw] max-sm:h-[15vw] flex justify-center items-center mx-2" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[20vh] h-[20vh] max-sm:w-[15vw] max-sm:h-[15vw] flex justify-center items-center mx-2" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[20vh] h-[20vh] max-sm:w-[15vw] max-sm:h-[15vw] flex justify-center items-center mx-2" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[20vh] h-[20vh] max-sm:w-[15vw] max-sm:h-[15vw] flex justify-center items-center mx-2" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[20vh] h-[20vh] max-sm:w-[15vw] max-sm:h-[15vw] flex justify-center items-center mx-2" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[20vh] h-[20vh] max-sm:w-[15vw] max-sm:h-[15vw] flex justify-center items-center mx-2" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[20vh] h-[20vh] max-sm:w-[15vw] max-sm:h-[15vw] flex justify-center items-center mx-2" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[20vh] h-[20vh] max-sm:w-[15vw] max-sm:h-[15vw] flex justify-center items-center mx-2" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[20vh] h-[20vh] max-sm:w-[15vw] max-sm:h-[15vw] flex justify-center items-center mx-2" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[20vh] h-[20vh] max-sm:w-[15vw] max-sm:h-[15vw] flex justify-center items-center mx-2" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[20vh] h-[20vh] max-sm:w-[15vw] max-sm:h-[15vw] flex justify-center items-center mx-2" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[20vh] h-[20vh] max-sm:w-[15vw] max-sm:h-[15vw] flex justify-center items-center mx-2" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[20vh] h-[20vh] max-sm:w-[15vw] max-sm:h-[15vw] flex justify-center items-center mx-2" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[20vh] h-[20vh] max-sm:w-[15vw] max-sm:h-[15vw] flex justify-center items-center mx-2" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[20vh] h-[20vh] max-sm:w-[15vw] max-sm:h-[15vw] flex justify-center items-center mx-2" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[20vh] h-[20vh] max-sm:w-[15vw] max-sm:h-[15vw] flex justify-center items-center mx-2" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[20vh] h-[20vh] max-sm:w-[15vw] max-sm:h-[15vw] flex justify-center items-center mx-2" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+          <div class="bg-secondary-light w-[20vh] h-[20vh] max-sm:w-[15vw] max-sm:h-[15vw] flex justify-center items-center mx-2" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+            <div class="relative bg-background size-[90%] flex items-center justify-center overflow-visible" style="clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)">
+              <img src="assets/logo-placeholder.jpg" alt="td_ut_1" class="w-full h-auto scale-150">
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
