@@ -820,12 +820,8 @@ video {
   margin-top: 0.5rem;
 }
 
-.mt-8{
-  margin-top: 2rem;
-}
-
-.mt-16{
-  margin-top: 4rem;
+.mb-16{
+  margin-bottom: 4rem;
 }
 
 .box-border{
@@ -2513,6 +2509,14 @@ video {
 
 .pt-8{
   padding-top: 2rem;
+}
+
+.pb-12{
+  padding-bottom: 3rem;
+}
+
+.pb-16{
+  padding-bottom: 4rem;
 }
 
 .text-left{
