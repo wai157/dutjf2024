@@ -15,54 +15,27 @@
   <!-- nav bar -->
   <!-- Main navigation container -->
   <nav class="flex-no-wrap fixed top-0 flex w-full h-16 z-50 items-center justify-between bg-background shadow-dark-mild lg:flex-wrap lg:justify-start">
-    <div class="flex w-full flex-wrap items-center justify-between px-3">
-      <!-- Hamburger button for mobile view -->
-      <button
-        class="block border-0 bg-transparent px-2 text-black/50 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
-        type="button"
-        data-twe-collapse-init
-        data-twe-target="#navbarSupportedContent1"
-        aria-controls="navbarSupportedContent1"
-        aria-expanded="false"
-        aria-label="Toggle navigation">
-        <!-- Hamburger icon -->
-        <span class="[&>svg]:w-7 [&>svg]:stroke-black/50 dark:[&>svg]:stroke-neutral-200">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
-          </svg>
-        </span>
-      </button>
-
-      <!-- Collapsible navigation container -->
-      <div class="!visible hidden flex-grow basis-[100%] items-center lg:!flex lg:basis-auto" id="navbarSupportedContent1" data-twe-collapse-item>
-        <!-- Logo -->
-        <a
-          class="mb-4 me-5 ms-2 mt-3 flex items-center lg:mb-0 lg:mt-0"
-          href="#">
-          <img
-            src="assets/logo_jf.png"
-            class="h-12 w-auto top-3"
-            alt="DUTJF Logo"
-            loading="lazy" />
+    <div class="flex w-full flex-wrap items-center justify-between">
+      <div class="flex basis-auto w-full items-center gap-3">
+        <a class="flex items-center pl-4" href="#">
+          <img src="assets/logo_jf.png" class="h-12 w-auto top-3" alt="DUTJF Logo" loading="lazy" />
         </a>
-        <ul
-          class="list-style-none me-auto flex flex-col ps-0 lg:flex-row"
-          data-twe-navbar-nav-ref>
-          <li class="mb-4 lg:mb-0 lg:pe-2" data-twe-nav-item-ref>
+        <ul class="list-style-none flex flex-row">
+          <li class="px-2">
             <a
               class="font-semibold text-xl text-primary transition duration-200 hover:text-primary-light hover:ease-in-out focus:text-primary-light active:text-primary-light motion-reduce:transition-none lg:px-2"
               href="https://www.facebook.com/ctsvdhbkdhdn/posts/405281755469836"
               target="_blank"
-              data-twe-nav-link-ref
+              data-te-nav-link-ref
               >Timeline</a
             >
           </li>
-          <li class="mb-4 lg:mb-0 lg:pe-2" data-twe-nav-item-ref>
+          <li class="px-2">
             <a
               class="font-semibold text-xl text-primary transition duration-200 hover:text-primary-light hover:ease-in-out focus:text-primary-light active:text-primary-light motion-reduce:transition-none lg:px-2"
               href="https://www.facebook.com/ctsvdhbkdhdn/posts/407553845242627"
               target="_blank"
-              data-twe-nav-link-ref
+              data-te-nav-link-ref
               >JFMAP</a
             >
           </li>
@@ -76,15 +49,15 @@
 
     <!-- first page -->
     <div class="relative h-screen max-sm:h-[110vh]">
-      <div id="main-carousel" class="relative h-full" data-twe-carousel-init data-twe-ride="carousel">
+      <div id="main-carousel" class="relative h-full" data-te-carousel-init data-te-ride="carousel">
         <div class="relative w-full h-full overflow-hidden after:clear-both after:block after:content-['']">
-          <div class="relative float-left -mr-[100%] w-full h-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-twe-carousel-item data-twe-carousel-active>
+          <div class="relative float-left -mr-[100%] w-full h-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item data-te-carousel-active>
             <img src="assets/hinhanh2023/IMG_9331.JPG" class="absolute bottom-0 max-w-none w-full h-auto" alt="job fair 1" />
           </div>
-          <div class="relative float-left -mr-[100%] hidden w-full h-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-twe-carousel-item>
+          <div class="relative float-left -mr-[100%] hidden w-full h-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
             <img src="assets/hinhanh2023/IMG_9332.JPG" class="absolute bottom-0 max-w-none w-full h-auto" alt="job fair 2" />
           </div>
-          <div class="relative float-left -mr-[100%] hidden w-full h-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-twe-carousel-item>
+          <div class="relative float-left -mr-[100%] hidden w-full h-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none" data-te-carousel-item>
             <img src="assets/hinhanh2023/IMG_9328.JPG" class="absolute bottom-0 max-w-none w-full h-auto" alt="job fair 3" />
           </div>
         </div>
@@ -94,7 +67,7 @@
           <p class="text-center text-accent text-6xl sm:text-7xl font-bold max-sm:pt-28" data-aos="fade-up" data-aos-duration="800">DUT Job Fair 2024</p>
           <p class="text-center text-background text-sm sm:text-lg py-6 px-6 sm:px-40" data-aos="fade-up" data-aos-duration="1200">Sứ mệnh kết nối Nhà trường - Sinh viên - Doanh nghiệp, mở ra nhiều cơ hội việc làm, định hướng nghề nghiệp cho sinh viên. Tạo điều kiện cho Doanh nghiệp gặp mặt với những sinh viên chất lượng cao.</p>
           <a href="https://www.facebook.com/ctsvdhbkdhdn/posts/397429489588396" target="_blank" rel="noopener noreferrer" class="place-self-center" data-aos="fade-up" data-aos-duration="1400">
-            <button type="button" data-twe-ripple-init data-twe-ripple-color="light" class="inline-block w-48 h-14 rounded-full bg-primary px-2 py-2.5 text-lg font-semibold leading-normal text-background hover:-translate-y-1 shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">
+            <button type="button" data-te-ripple-init data-te-ripple-color="light" class="inline-block w-48 h-14 rounded-full bg-primary px-2 py-2.5 text-lg font-semibold leading-normal text-background hover:-translate-y-1 shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">
               Tham gia ngay
             </button>
           </a>
@@ -142,28 +115,28 @@
       <div
         id="carouselDarkVariant"
         class="relative min-h-[90vh] h-[90vh]"
-        data-twe-carousel-init
-        data-twe-ride="carousel">
+        data-te-carousel-init
+        data-te-ride="carousel">
         <!-- Carousel indicators -->
         <div
           class="absolute inset-x-0 bottom-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
-          data-twe-carousel-indicators>
+          data-te-carousel-indicators>
           <button
-            data-twe-target="#carouselDarkVariant"
-            data-twe-slide-to="0"
-            data-twe-carousel-active
+            data-te-target="#carouselDarkVariant"
+            data-te-slide-to="0"
+            data-te-carousel-active
             class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-black bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
             aria-current="true"
             aria-label="Slide 1"></button>
           <button
-            data-twe-target="#carouselDarkVariant"
+            data-te-target="#carouselDarkVariant"
             class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-black bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-            data-twe-slide-to="1"
+            data-te-slide-to="1"
             aria-label="Slide 1"></button>
           <button
-            data-twe-target="#carouselDarkVariant"
+            data-te-target="#carouselDarkVariant"
             class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-black bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-            data-twe-slide-to="2"
+            data-te-slide-to="2"
             aria-label="Slide 1"></button>
         </div>
 
@@ -174,9 +147,9 @@
           <!-- First item -->
           <div
             class="relative float-left -mr-[100%] w-full h-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
-            data-twe-carousel-fade
-            data-twe-carousel-item
-            data-twe-carousel-active>
+            data-te-carousel-fade
+            data-te-carousel-item
+            data-te-carousel-active>
             <div class="flex flex-row-reverse max-sm:flex-col w-full h-full">
               <div class="relative sm:w-3/5 max-sm:h-7/12 h-full sm:pr-[10%] px-4 max-sm:pt-8 flex flex-col justify-center">
                 <div class="relative w-full h-full">
@@ -206,8 +179,8 @@
           <!-- Second item -->
           <div
             class="relative float-left -mr-[100%] w-full h-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
-            data-twe-carousel-fade
-            data-twe-carousel-item>
+            data-te-carousel-fade
+            data-te-carousel-item>
             <div class="flex flex-row-reverse max-sm:flex-col w-full h-full">
               <div class="relative sm:w-3/5 max-sm:h-7/12 h-full sm:pr-[10%] px-4 max-sm:pt-8 flex flex-col justify-center">
                 <div class="relative w-full h-full">
@@ -237,8 +210,8 @@
           <!-- Third item -->
           <div
             class="relative float-left -mr-[100%] w-full h-full !transform-none opacity-0 transition-opacity duration-[600ms] ease-in-out motion-reduce:transition-none"
-            data-twe-carousel-fade
-            data-twe-carousel-item>
+            data-te-carousel-fade
+            data-te-carousel-item>
             <div class="flex flex-row-reverse max-sm:flex-col w-full h-full">
               <div class="relative sm:w-3/5 max-sm:h-7/12 h-full sm:pr-[10%] px-4 max-sm:pt-8 flex flex-col justify-center">
                 <div class="relative w-full h-full">
@@ -271,8 +244,8 @@
         <button
           class="absolute bottom-0 left-0 top-0 z-[1] flex w-[5%] items-center justify-center border-0 bg-none p-0 text-center text-black opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-black hover:no-underline hover:opacity-90 hover:outline-none focus:text-black focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
           type="button"
-          data-twe-target="#carouselDarkVariant"
-          data-twe-slide="prev">
+          data-te-target="#carouselDarkVariant"
+          data-te-slide="prev">
           <span class="inline-block h-8 w-8 dark:grayscale">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -296,8 +269,8 @@
         <button
           class="absolute bottom-0 right-0 top-0 z-[1] flex w-[5%] items-center justify-center border-0 bg-none p-0 text-center text-black opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-black hover:no-underline hover:opacity-90 hover:outline-none focus:text-black focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
           type="button"
-          data-twe-target="#carouselDarkVariant"
-          data-twe-slide="next">
+          data-te-target="#carouselDarkVariant"
+          data-te-slide="next">
           <span class="inline-block h-8 w-8 dark:grayscale">
             <svg
               xmlns="http://www.w3.org/2000/svg"
